@@ -65,35 +65,44 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	margin: 15px;
+	margin: 5%;
+}
+nav {
+	border: 1px solid red;
 }
 nav .menu {
 	display: inline-block;
+	vertical-align: 10px;
 }
 nav .logo {
-	display: inline-block
+	display: inline-block;
+	margin-left: 8%;
 }
 nav a{
 	color: grey;
 	margin: 20px;
 	text-decoration: none;
 	text-align: center;
+	
 }
 body > header {
 	border-bottom:1px solid black
+}
+body > .address {
+	border-top: 1px solid black;
 }
 header .header-txt {
 	display: inline-block;
     width: 49%;
     text-align: center;
-    height: 300px;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 
 header .rnd-img-cont {
 	display: inline-block;
 	width: 49%;
 	height:100%;
+	vertical-align: middle;
 }
 
 h1 {
@@ -104,6 +113,7 @@ h1 {
 }
 .rnd-img {
 	display: inline-block;
+	padding: 10% 0;
 }
 header .button {
 	border: 1px solid black;
@@ -112,4 +122,18 @@ header .button {
 	padding-left: 100px;
 	width: 35%;
     margin-left: 32%;
+}
+
+.features-about-content div {
+	width: 49%;
+	display: inline-block;
+	padding: 30px 0;
+}
+
+.features-about-content div:first-child {
+	margin-right: 1%;
+}
+
+.middle-img {
+	width: 100%;
 }
